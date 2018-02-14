@@ -1,0 +1,31 @@
+body{
+    background-color: #d3d3d3;
+}
+
+#trackContainer{
+    margin-top: 20px;
+    background-color: grey;
+}
+
+#raceTrack{
+    background-color: grey;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    border-right: 5px dashed #d3d3d3;
+}
+
+.carDiv{
+    margin: 5px 0 5px 0;
+    text-align: center;
+    color: white;
+    background-color: #ff9966;
+    width: 50px;
+    position: relative;
+    left: -50px;
+}
+
+.carDiv:nth-child(odd){
+    background-color: #666699;
+}
